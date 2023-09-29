@@ -4,8 +4,8 @@ import dataPorec from "../dataPorec"
 
 const Croatia = () => {
 
-    const [renderBracImg, setRenderBracImg] = useState([dataBrac])
-    const [renderPorecImg, setrenderPorecImg] = useState([dataPorec])
+    const [renderBracImg, setRenderBracImg] = useState([])
+    const [renderPorecImg, setrenderPorecImg] = useState([])
 
     const setBrac = () => {
         setRenderBracImg(dataBrac)
